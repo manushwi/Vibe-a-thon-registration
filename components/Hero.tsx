@@ -67,36 +67,44 @@ const Hero: React.FC = () => {
 
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-orange-950/10 to-black" />
 
-    <div className="relative z-10 px-4 animate-fade-in">
-        <h2 className="text-5xl md:text-7xl lg:text-8xl font-orbitron font-extrabold text-white mb-8">
-          Introducing
-        </h2>
-        <h1 className="text-4xl md:text-7xl lg:text-8xl font-orbitron font-extrabold text-white mb-4">
-          <span className="text-primary blur-0 animate-glow">Vibe -</span>a<span className="text-primary blur-0 animate-glow">- thon</span>
-        </h1>
-        <h2 className="text-5xl md:text-7xl lg:text-8xl font-orbitron font-extrabold text-white mb-8">
-          by CodezY
-        </h2>
-        <p className="text-lg md:text-xl max-w-3xl mx-auto text-accent mb-12">
-          Join the brightest minds for a celebration of technology, creativity, and the future.
-        </p>
-        <div className="flex gap-5 align-center justify-center">
-          <a 
-          href="#register"
-          className="inline-block bg-transparent border-2 border-primary text-primary font-bold py-3 px-5 rounded-full transition-all duration-300 hover:bg-primary hover:text-black hover:shadow-glow-orange text-m"
-        >
-          Register Now
-        </a>
-        <a 
-          href="/RuleBook.pdf" 
-          download="RuleBook.pdf"
-          className="inline-block hover:bg-transparent border-2 border-primary hover:text-primary font-bold py-3 px-5 rounded-full transition-all duration-300 bg-primary  hover:shadow-glow-orange text-lg"
-        >
-          <Download className="text-white inline mr-2" strokeWidth={1.5} />
-          Rulebook
-        </a>
-        </div>
-      </div>
+    <div className="relative z-10 px-4 animate-fade-in text-center">
+  <h2 className="text-4xl md:text-6xl lg:text-7xl font-orbitron font-extrabold text-white mb-6">
+    Introducing
+  </h2>
+
+  <h1 className="text-3xl md:text-6xl lg:text-7xl font-orbitron font-extrabold text-white mb-4">
+    <span className="text-primary animate-glow">Vibe -</span>a<span className="text-primary animate-glow">- thon</span>
+  </h1>
+
+  <h2 className="text-3xl md:text-6xl lg:text-7xl font-orbitron font-extrabold text-white mb-6">
+    by CodezY
+  </h2>
+
+  <p className="text-base md:text-lg max-w-2xl mx-auto text-accent mb-10">
+    Join the brightest minds for a celebration of technology, creativity, and the future.
+  </p>
+
+  <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center">
+    {/* Register Button */}
+    <a
+      href="#register"
+      className="w-full sm:w-auto inline-block border-2 border-primary text-primary font-semibold py-3 px-6 rounded-full text-sm md:text-base lg:text-lg transition-all duration-300 hover:bg-primary hover:text-black hover:shadow-glow-orange"
+    >
+      Register Now
+    </a>
+
+    {/* Rulebook Button */}
+    <a
+      href="/RuleBook.pdf"
+      download="RuleBook.pdf"
+      className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border-2 border-primary bg-primary text-black font-semibold py-3 px-6 rounded-full text-sm md:text-base lg:text-lg transition-all duration-300 hover:bg-transparent hover:text-primary hover:shadow-glow-orange"
+    >
+      <Download className="text-black md:text-black" strokeWidth={1.5} />
+      Rulebook
+    </a>
+  </div>
+</div>
+
       
       
        
