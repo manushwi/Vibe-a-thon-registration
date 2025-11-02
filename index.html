@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vibe-a-thon | CodezY</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#ff7a00',
+              secondary: '#1e1e1e',
+              accent: '#b3b3b3',
+            },
+            fontFamily: {
+              'sans': ['Poppins', 'sans-serif'],
+              'orbitron': ['Orbitron', 'sans-serif'],
+            },
+            animation: {
+              'glow': 'glow 2s ease-in-out infinite alternate',
+              'float': 'float 6s ease-in-out infinite',
+              'fade-in': 'fadeIn 1s ease-out forwards',
+              'slide-in-left': 'slideInLeft 1s ease-out forwards',
+              'slide-in-right': 'slideInRight 1s ease-out forwards',
+              'sword-exit': 'swordExit 0.5s ease-in forwards',
+            },
+            keyframes: {
+              glow: {
+                'from': { textShadow: '0 0 5px #ff7a00, 0 0 1px #ff7a00, 0 0 12px #ff7a00' },
+                'to': { textShadow: '0 0 1px #ff7a00, 0 0 2px #ff7a00, 0 0 12px #ff7a00' },
+              },
+              float: {
+                '0%': { transform: 'translatey(0px)' },
+                '50%': { transform: 'translatey(-20px)' },
+                '100%': { transform: 'translatey(0px)' },
+              },
+              fadeIn: {
+                'from': { opacity: 0, transform: 'translateY(20px)' },
+                'to': { opacity: 1, transform: 'translateY(0)' },
+              },
+              slideInLeft: {
+                'from': { opacity: 0, transform: 'translateX(-100px)' },
+                'to': { opacity: 1, transform: 'translateX(0)' },
+              },
+              slideInRight: {
+                'from': { opacity: 0, transform: 'translateX(100px)' },
+                'to': { opacity: 1, transform: 'translateX(0)' },
+              },
+              swordExit: {
+                'to': { transform: 'translateY(100vh) scale(0.5)', opacity: 0 }
+              },
+            },
+            boxShadow: {
+              'glow-orange': '0 0 15px 2px rgba(255, 122, 0, 0.7)',
+              'glow-orange-lg': '0 0 30px 5px rgba(255, 122, 0, 0.6)',
+            }
+          },
+        },
+      }
+    </script>
+    <style>
+      body {
+        background-color: #000;
+        color: #fff;
+        overflow-x: hidden;
+      }
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #ff7a00;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #e66e00;
+      }
+      .timeline-item::before {
+        content: '';
+        position: absolute;
+        top: 24px;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background-color: #000;
+        border: 4px solid #ff7a00;
+        z-index: 10;
+      }
+      .timeline-item-left::before {
+        right: -8px;
+      }
+      .timeline-item-right::before {
+        left: -8px;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/framer-motion@11.2.12/dist/framer-motion.umd.min.js"></script>
+  </body>
+</html>
