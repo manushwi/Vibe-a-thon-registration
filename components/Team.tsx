@@ -7,28 +7,28 @@ const teamMembers = [
   {
     name: 'Tanishak Tyagi',
     role: 'Society Head',
-    image: '../public/tanish.jpg',
+    image: '/tanish.jpg',
     linkedin: 'https://www.linkedin.com/in/tanishak-tyagi-744501319/',
 
   },
   {
     name: 'Aman',
     role: 'Society Head',
-    image: '../public/aman.jpg',
+    image: '/aman.jpg',
     linkedin: 'https://www.linkedin.com/in/aman-kumar-pal-79b40826b/',
-    
+
   },
   {
     name: 'Manushwi',
     role: 'Technical Lead',
-    image: '../public/manushwi.png',
+    image: '/manushwi.png',
     linkedin: 'https://www.linkedin.com/in/manushwi-raj-bhardwaj/',
 
   },
   {
     name: 'Bhavya',
     role: 'Marketing Lead',
-    image: '../public/bhavya.jpg',
+    image: '/bhavya.jpg',
     linkedin: 'https://www.linkedin.com/in/bhavya-yadav-841a3b379/',
 
   },

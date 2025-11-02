@@ -65,7 +65,7 @@ const App: React.FC = () => {
         <About />
         <Round />
         <Timeline />
-        {/* <Team /> */}
+        <Team />
         <RegistrationForm />
       </main>
       <Footer />
