@@ -26,7 +26,7 @@ const Header: React.FC = () => {
     <header className={`fixed top-0 left-0 w-full z-40 transition-all duration-300 ${scrolled ? 'bg-black/80 backdrop-blur-sm' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a href="#home" className="text-2xl font-orbitron font-bold text-primary animate-glow">
-          <img src="./logo.png" alt="logo" className="h-20" />
+          <img src="../public/logo.png" alt="logo" className="h-20" />
         </a>
         <nav className="hidden md:flex space-x-6">
           {navLinks.map((link) => (

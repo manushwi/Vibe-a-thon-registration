@@ -71,7 +71,7 @@ const Hero: React.FC = () => {
         <h2 className="text-5xl md:text-7xl lg:text-8xl font-orbitron font-extrabold text-white mb-8">
           Introducing
         </h2>
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-orbitron font-extrabold text-white mb-4">
+        <h1 className="text-8xl md:text-7xl lg:text-8xl font-orbitron font-extrabold text-white mb-4">
           <span className="text-primary blur-0 animate-glow">Vibe -</span>a<span className="text-primary blur-0 animate-glow">- thon</span>
         </h1>
         <h2 className="text-5xl md:text-7xl lg:text-8xl font-orbitron font-extrabold text-white mb-8">
@@ -88,7 +88,7 @@ const Hero: React.FC = () => {
           Register Now
         </a>
         <a 
-          href="./RuleBook.pdf" 
+          href="../public/RuleBook.pdf" 
           download="RuleBook.pdf"
           className="inline-block hover:bg-transparent border-2 border-primary hover:text-primary font-bold py-3 px-10 rounded-full transition-all duration-300 bg-primary  hover:shadow-glow-orange text-lg"
         >

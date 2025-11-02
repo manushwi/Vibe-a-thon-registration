@@ -13,7 +13,7 @@ const Loader: React.FC<LoaderProps> = ({ isExiting }) => {
       <div className="relative w-64 h-64 flex justify-center items-center">
         {/* Sword SVG Animation */}
         <div className={isExiting ? 'animate-sword-exit' : 'animate-sword-heartbeat'}>
-          <img src="./sword.png" alt="sword" className="mb-20 h-80 w-40"/>
+          <img src="../public/sword.png" alt="sword" className="mb-20 h-80 w-40"/>
         </div>
       </div>
 
