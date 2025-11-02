@@ -9,28 +9,28 @@ const teamMembers = [
     role: 'Society Head',
     image: '../public/tanish.jpg',
     linkedin: 'https://www.linkedin.com/in/tanishak-tyagi-744501319/',
-    github: '',
+
   },
   {
     name: 'Aman',
     role: 'Society Head',
     image: '../public/aman.jpg',
     linkedin: 'https://www.linkedin.com/in/aman-kumar-pal-79b40826b/',
-    github: '',
+    
   },
   {
     name: 'Manushwi',
     role: 'Technical Lead',
     image: '../public/manushwi.png',
     linkedin: 'https://www.linkedin.com/in/manushwi-raj-bhardwaj/',
-    github: 'https://github.com/manushwi',
+
   },
   {
     name: 'Bhavya',
     role: 'Marketing Lead',
     image: '../public/bhavya.jpg',
     linkedin: 'https://www.linkedin.com/in/bhavya-yadav-841a3b379/',
-    github: '',
+
   },
 ];
 
@@ -90,12 +90,6 @@ const Team = () => {
                       className="p-2 bg-orange-500/10 rounded-lg hover:bg-orange-500 hover:scale-110 transition-all duration-300 group/icon"
                     >
                       <Linkedin className="w-4 h-4 text-orange-500 group-hover/icon:text-black transition-colors duration-300" />
-                    </a>
-                    <a
-                      href={teamMembers.github}
-                      className="p-2 bg-orange-500/10 rounded-lg hover:bg-orange-500 hover:scale-110 transition-all duration-300 group/icon"
-                    >
-                      <Github className="w-4 h-4 text-orange-500 group-hover/icon:text-black transition-colors duration-300" />
                     </a>
                   </div>
                 </div>
