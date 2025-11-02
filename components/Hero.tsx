@@ -88,7 +88,7 @@ const Hero: React.FC = () => {
           Register Now
         </a>
         <a 
-          href="../public/RuleBook.pdf" 
+          href="/RuleBook.pdf" 
           download="RuleBook.pdf"
           className="inline-block hover:bg-transparent border-2 border-primary hover:text-primary font-bold py-3 px-10 rounded-full transition-all duration-300 bg-primary  hover:shadow-glow-orange text-lg"
         >
