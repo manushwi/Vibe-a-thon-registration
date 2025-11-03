@@ -91,15 +91,42 @@ const RegistrationForm: React.FC = () => {
           className="max-w-2xl mx-auto bg-secondary/50 p-8 rounded-lg border border-primary/30"
         >
           {status === "success" ? (
-            <div className="text-center py-10">
-              <h3 className="text-2xl font-bold text-green-400">
-                Registration Successful!
-              </h3>
-              <p className="text-gray-300 mt-2">
-                Thank you for registering. We've sent a confirmation to your
-                email.
-              </p>
-            </div>
+            <div className="flex flex-col items-center justify-center text-center py-16 px-6 bg-gradient-to-br from-gray-900 via-gray-800 to-black rounded-2xl shadow-2xl max-w-md mx-auto mt-10">
+  <h3 className="text-3xl md:text-4xl font-extrabold text-green-400 animate-bounce">
+    🎉 Registration Successful!
+  </h3>
+
+  <p className="text-gray-300 mt-4 text-base md:text-lg leading-relaxed">
+    Thank you for registering! We’ve sent a confirmation email to your inbox.  
+    You can also join our WhatsApp community for updates and support.
+  </p>
+
+  <a
+    href="https://chat.whatsapp.com/DplM6izf2iJLegmHhC86AS?mode=wwt"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="mt-6 inline-flex items-center gap-3 bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-full transition-all duration-300 transform hover:scale-105"
+  >
+    <span>Join WhatsApp Group</span>
+  </a>
+
+  {/* QR Code Section */}
+  <div className="mt-10 bg-gray-800/50 p-6 rounded-xl shadow-lg flex flex-col items-center">
+    <h4 className="text-lg font-semibold text-green-400 mb-3">
+      Or scan the QR code:
+    </h4>
+    <img
+      src="/whatsapp.png"
+      alt="WhatsApp Group QR"
+      className="w-40 h-40 md:w-48 md:h-48 rounded-lg border border-green-400 shadow-md hover:scale-105 transition-transform duration-300"
+    />
+  </div>
+
+  <div className="mt-8 text-sm text-gray-500">
+    You’ll receive all future announcements and updates there.
+  </div>
+</div>
+
           ) : (
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>

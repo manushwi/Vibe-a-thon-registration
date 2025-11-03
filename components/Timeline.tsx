@@ -12,8 +12,8 @@ const timelineEvents = [
   },
   {
     title: 'Registration Closes',
-    time: '12:00 AM',
-    date: 'November 6, 2025',
+    time: '11:59 PM',
+    date: 'November 5, 2025',
     description: 'Registration for participating will closes at sharp 12:00 AM',
     side: 'right',
   },
