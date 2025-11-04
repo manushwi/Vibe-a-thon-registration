@@ -65,14 +65,14 @@ const teamMembers = [
   
   {
     name: 'Dhruv',
-    role: 'Technical Team',
+    role: 'Volunteer',
     image: '/dhruv.jpg',
     linkedin: 'https://www.linkedin.com/in/dhruv-chaudhary-6125ab368/',
   },
   
   {
     name: 'Gaurang',
-    role: 'Technical Team',
+    role: 'Volunteer',
     image: '/gaurang.jpg',
     linkedin: 'https://www.linkedin.com/in/gaurang-parashar-97026235a/',
   },
