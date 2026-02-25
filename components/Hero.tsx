@@ -95,7 +95,8 @@ const Hero: React.FC = () => {
 
     {/* Rulebook Button */}
     <a
-      href="/Rulebook.pdf"
+      href="/Rule.pdf"
+      download="Rule.pdf"
       className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border-2 border-primary bg-primary text-black font-semibold py-3 px-6 rounded-full text-sm md:text-base lg:text-lg transition-all duration-300 hover:bg-transparent hover:text-primary hover:shadow-glow-orange"
     >
       <Download className="text-white" strokeWidth={1.5} />
