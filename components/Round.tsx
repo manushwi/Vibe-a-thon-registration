@@ -5,19 +5,19 @@ import { Code2, Brain } from 'lucide-react';
 const rounds = [
   {
     icon: Code2,
-    title: 'REPLICATE & INNOVATE',
+    title: 'Code Intelligence — Quiz Round',
     description:
-      'Build a responsive web page from given assets. Replicate the design and add creative enhancements.',
-    date: 'Nov 6, 2025',
-    time: '10:00 AM – 12:30 PM',
+      'A 30-marks technical quiz testing participants’ core programming knowledge in C and Python. The round evaluates logical thinking, syntax understanding, and problem-solving fundamentals through objective and short analytical questions.',
+    date: 'Feb 28, 2026',
+    time: '10:00 AM – 11:00 AM',
   },
   {
     icon: Brain,
-    title: 'Ready 4 Production',
+    title: 'AI Showcase — Build & Present',
     description:
-      'Turn your front-end into a full-stack, production-ready app with backend and database integration.',
-    date: 'Nov 6, 2025',
-    time: '1:30 PM – 4:00 PM',
+      'Participants will design and present a mini AI project or prototype. This round focuses on creativity, innovation, and real-world application of Artificial Intelligence. Teams will demonstrate working models, concepts, or AI-powered solutions.',
+    date: 'Feb 28, 2026',
+    time: '12:30 PM – 2:00 PM',
   },
 ];
 

@@ -73,7 +73,7 @@ const Hero: React.FC = () => {
   </h2>
 
   <h1 className="text-3xl md:text-6xl lg:text-7xl font-orbitron font-extrabold text-white mb-4">
-    <span className="text-primary animate-glow">Vibe -</span>a<span className="text-primary animate-glow">- thon</span>
+    <span className="text-primary animate-glow">Sci -</span>en<span className="text-primary animate-glow">- quest</span>
   </h1>
 
   <h2 className="text-3xl md:text-6xl lg:text-7xl font-orbitron font-extrabold text-white mb-6">
@@ -95,8 +95,8 @@ const Hero: React.FC = () => {
 
     {/* Rulebook Button */}
     <a
-      href="/RuleBook.pdf"
-      download="RuleBook.pdf"
+      href="/Rulebook.pdf"
+      download="Rulebook.pdf"
       className="w-full sm:w-auto inline-flex items-center justify-center gap-2 border-2 border-primary bg-primary text-black font-semibold py-3 px-6 rounded-full text-sm md:text-base lg:text-lg transition-all duration-300 hover:bg-transparent hover:text-primary hover:shadow-glow-orange"
     >
       <Download className="text-white" strokeWidth={1.5} />
