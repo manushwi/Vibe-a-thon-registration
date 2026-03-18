@@ -37,7 +37,7 @@ const RegistrationForm: React.FC = () => {
     setStatus("loading");
     try {
       const res = await fetch(
-        "https://rkgitm.app.n8n.cloud/webhook/registration-form",
+        "https://amankumarpal.app.n8n.cloud/webhook/registration-form",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
