@@ -8,7 +8,7 @@ const rounds = [
     title: 'Code Intelligence — Quiz Round',
     description:
       'A 30-marks technical quiz testing participants’ core programming knowledge in C and Python. The round evaluates logical thinking, syntax understanding, and problem-solving fundamentals through objective and short analytical questions.',
-    date: 'Feb 28, 2026',
+    date: 'Mar 20, 2026',
     time: '10:00 AM – 11:00 AM',
   },
   {
@@ -16,7 +16,7 @@ const rounds = [
     title: 'AI Showcase — Build & Present',
     description:
       'Participants will design and present a mini AI project or prototype. This round focuses on creativity, innovation, and real-world application of Artificial Intelligence. Teams will demonstrate working models, concepts, or AI-powered solutions.',
-    date: 'Feb 28, 2026',
+    date: 'Mar 20, 2026',
     time: '12:30 PM – 2:00 PM',
   },
 ];
