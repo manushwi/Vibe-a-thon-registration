@@ -73,7 +73,7 @@ const Hero: React.FC = () => {
   </h2>
 
   <h1 className="text-3xl md:text-6xl lg:text-7xl font-orbitron font-extrabold text-white mb-4">
-    <span className="text-primary animate-glow">Sci -</span>en<span className="text-primary animate-glow">- quest</span>
+    <span className="text-primary animate-glow">Vigyan</span> Code<span className="text-primary animate-glow"> Utsav</span>
   </h1>
 
   <h2 className="text-3xl md:text-6xl lg:text-7xl font-orbitron font-extrabold text-white mb-6">
